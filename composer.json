@@ -1,0 +1,18 @@
+{
+    "name": "gabrieljmj/urlparser",
+    "license": "MIT",
+    "author": {
+        "name": "Gabriel Jacinto",
+        "link": "http://github.com/gabrieljmj",
+        "email": "gamjj74@hotmail.com"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gabrieljmj\\UrlParser\\": "vendor/gabrieljmj/urlparser/src/Gabrieljmj/UrlParser/",
+            "Test\\": "tests/"
+        }
+    }
+}
