@@ -5,8 +5,8 @@ use \Exception;
 
 class UrlParserException extends Exception
 {
-	public function invalidUrl($url)
-	{
-		throw new UrlParserException('Invalid URL passed: ' . $url);
-	}
+    public function invalidUrl($url)
+    {
+        throw new UrlParserException('Invalid URL passed: ' . $url);
+    }
 }
