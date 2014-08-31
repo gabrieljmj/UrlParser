@@ -1,6 +1,6 @@
 {
     "name": "gabrieljmj/urlparser",
-    "description": "To parse an URL to get informations of it",
+    "description": "To parse an URL to get informations",
     "license": "MIT",
     "author": {
         "name": "Gabriel Jacinto",

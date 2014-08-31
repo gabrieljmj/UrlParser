@@ -2,7 +2,7 @@ GabrielJMJ\UrlParser
 ====================
 [![Total Downloads](https://poser.pugx.org/gabrieljmj/urlparser/downloads.png)](https://packagist.org/packages/gabrieljmj/urlparser) [![Latest Unstable Version](https://poser.pugx.org/gabrieljmj/urlparser/v/unstable.png)](https://packagist.org/packages/gabrieljmj/urlparser) [![License](https://poser.pugx.org/gabrieljmj/urlparser/license.png)](https://packagist.org/packages/gabrieljmj/urlparser) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/GabrielJMJ/UrlParser/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/GabrielJMJ/UrlParser/?branch=master)
 
-To parse an URL to get informations of it.
+To parse an URL to get informations.
 
 ##Download and autoload
 ###Via Composer
