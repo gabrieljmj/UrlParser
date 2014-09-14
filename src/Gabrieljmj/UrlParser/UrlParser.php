@@ -65,7 +65,7 @@ class UrlParser
      * @param string $url
      * @return array Queries
     */
-    public function setQueryStrings()
+    private function setQueryStrings()
     {
         $params = explode('?', $this->url);
         $queries = array();
@@ -95,7 +95,7 @@ class UrlParser
      * @param boolean $protocol
      * @return string
     */
-    public function setHost()
+    private function setHost()
     {
         $urlE = $this->explodedUrl;
 
@@ -117,7 +117,7 @@ class UrlParser
      * @param boolean $hasSubdomain
      * @return string
     */
-    public function setTld($hasSubdomain = false)
+    private function setTld($hasSubdomain = false)
     {
         $urlE = $this->explodedUrl;
         $url = $urlE[2];
@@ -146,7 +146,7 @@ class UrlParser
      * @param string $url
      * @param array  $explodedUrl
     */
-    public function setPath()
+    private function setPath()
     {
         $urlE = $this->explodedUrl;
 
@@ -167,7 +167,7 @@ class UrlParser
      * @param string $url
      * @return string
     */
-    public function setProtocol()
+    private function setProtocol()
     {
         $urlE = $this->explodedUrl;
 
